@@ -1,0 +1,54 @@
+.home{
+    height: 100vh;
+   
+    gap: 20px;
+
+    .homeContainer{
+        flex: 4;
+
+        h1{
+            font-size: 30px;
+            padding-top: 30px;
+            padding-bottom: 20px;
+            font-weight: 500;
+        }
+
+        .widgets, .sales_box{
+            display: flex;
+            flex-wrap: wrap;
+            padding: 20px;
+            gap: 20px;
+        }
+        .sales_box{
+            padding: 5px 70px;
+            display: flex;
+        }
+
+        
+    }
+   
+
+
+    
+}
+
+.sales_box{
+    display: flex;
+    padding: 10px 20px;
+    height: 100px;
+}
+
+
+
+
+
+
+// media queries
+@media (max-width: 640px) {
+
+    .widgets, .sales_box{
+       justify-content: space-around;
+       padding: 5px !important;
+    }
+    
+}

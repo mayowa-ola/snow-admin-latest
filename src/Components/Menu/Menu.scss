@@ -1,0 +1,50 @@
+@import "../../styles/reponsive.scss";
+
+
+.menu{
+    height: 100vh;
+    position: fixed;
+    top: 100px;
+
+
+    .item{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        margin-bottom: 20px;
+        
+
+       
+
+        .title{
+            font-size: 12px;
+            font-weight: 200;
+            color: #e9ecef;
+
+           
+        }
+
+        .listItem{
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            padding: 10px;
+            border-radius: 5px;
+
+            &:hover{
+                background-color: #32325d;
+            }
+
+            .listItemTitle{
+                @include lg{
+                    display: none;
+                }
+            }
+        }
+   
+    }
+
+    .bottom{
+        padding-top: 50px;
+    }
+}

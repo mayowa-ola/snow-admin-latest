@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&family=Nova+Square&family=Nunito+Sans:opsz,wght@6..12,300;6..12,500&family=Roboto:wght@300&display=swap');
+
+@import "./reponsive.scss";
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.main{
+    font-family: 'Montserrat', sans-serif; 
+    background: linear-gradient(87deg, rgb(94, 114, 228), rgb(130, 94, 228))
+     !important;
+    color: #fff;
+    min-height: 100vh ;
+    
+}
+
+.container{
+    display: flex;
+    @include xxl{
+       
+    }
+
+    @include xl{
+        
+    }
+    @include lg{
+    }
+    @include md{
+        
+    }
+
+    @include sm{
+        
+    }
+}
+
+.menuContainer{
+    width: 250px;
+    padding: 5px 20px;
+    border-right: 2px solid #adadad;
+
+    @include lg{
+        width: max-content;
+        border-right: none;
+    }
+    @include sm{
+        width: max-content;
+    }
+}
+
+.contentContainer{
+    padding: 5px 20px;
+    width: 100%;
+}
