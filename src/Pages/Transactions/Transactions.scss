@@ -1,0 +1,81 @@
+.transaction {
+    padding: 20px;
+    margin-top: 80px;
+}
+
+
+
+
+.transaction-wrapper{
+    background: #fff;
+    // padding: 30px 30px;
+    // margin: 40px;
+    height: 250px;
+    color: black;
+    border-radius: 10px;
+    .table{
+        color: rgb(136, 152, 170);
+        padding: 20px;
+    }
+
+    h2{
+        font-size: 17px;
+        font-weight: 400;
+        padding: 20px 30px;
+    }
+
+    .stack > nav{
+        display: flex;
+        justify-content: flex-end;
+    }
+}
+
+
+@media (max-width:550px) {
+
+    .transaction-wrapper{
+        width: 400px;
+
+    }
+     
+    
+}
+
+@media (max-width:780px) {
+
+    .transaction-wrapper{
+        width: 600px;
+
+    }
+     
+    
+}
+
+@media (max-width:680px) {
+
+    .transaction-wrapper{
+        width: 380px;
+
+    }
+     
+    
+}
+@media (max-width:460px) {
+
+    .transaction-wrapper{
+        width: 300px;
+
+    }
+     
+    
+}
+
+@media (max-width:387px) {
+
+    .transaction-wrapper{
+        width: 240px;
+
+    }
+     
+    
+}
